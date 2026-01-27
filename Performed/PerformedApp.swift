@@ -11,11 +11,6 @@ import GoogleMobileAds
 @main
 struct PerformedApp: App {
     
-    // Initialiser AdMob au démarrage
-        init() {
-            GADMobileAds.sharedInstance().start(completionHandler: nil)
-        }
-
     var body: some Scene {
         WindowGroup {
             ContentView()

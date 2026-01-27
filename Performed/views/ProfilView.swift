@@ -56,10 +56,6 @@ struct ProfilView: View {
                     // Sections
                     VStack(spacing: 16) {
                         accountSection
-                        
-                        BannerAdView()
-                        .frame(height: 50)
-                        
                         statsSection
                         appSection
                         dangerZoneSection
@@ -178,18 +174,6 @@ struct ProfilView: View {
             SectionHeader(title: "Statistiques détaillées")
             
             VStack(spacing: 0) {
-                NavigationLink(destination: StatistiquesView()) {
-                    ProfileRow(
-                        icon: "chart.bar.fill",
-                        title: "Voir les statistiques",
-                        color: .purple,
-                        showValue: false
-                    )
-                }
-                
-                Divider()
-                    .padding(.leading, 56)
-                
                 ProfileRow(
                     icon: "calendar",
                     title: "Première séance",
@@ -216,28 +200,6 @@ struct ProfilView: View {
                     color: .indigo
                 ) {
                     showAboutSheet = true
-                }
-                
-                Divider()
-                    .padding(.leading, 56)
-                
-                ProfileRow(
-                    icon: "star.fill",
-                    title: "Noter l'application",
-                    color: .yellow
-                ) {
-                    // Action pour noter l'app
-                }
-                
-                Divider()
-                    .padding(.leading, 56)
-                
-                ProfileRow(
-                    icon: "square.and.arrow.up.fill",
-                    title: "Partager l'application",
-                    color: .cyan
-                ) {
-                    // Action pour partager
                 }
                 
                 Divider()
