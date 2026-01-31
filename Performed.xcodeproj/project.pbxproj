@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2E96152F2E7D2500E02538 /* Serierow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E96142F2E7D2500E02538 /* Serierow.swift */; };
+		1A2E96172F2E7D5900E02538 /* ExercisePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E96162F2E7D5900E02538 /* ExercisePicker.swift */; };
+		1A2E96192F2E7E5F00E02538 /* Addseriebutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E96182F2E7E5E00E02538 /* Addseriebutton.swift */; };
 		1AC2FF552F184668005C684F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2FF542F184668005C684F /* HomeView.swift */; };
 		1AD5C4532F1013CE00D1D86A /* PerformedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5C4522F1013CE00D1D86A /* PerformedApp.swift */; };
 		1AD5C4552F1013CE00D1D86A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5C4542F1013CE00D1D86A /* ContentView.swift */; };
@@ -31,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2E96142F2E7D2500E02538 /* Serierow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serierow.swift; sourceTree = "<group>"; };
+		1A2E96162F2E7D5900E02538 /* ExercisePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePicker.swift; sourceTree = "<group>"; };
+		1A2E96182F2E7E5E00E02538 /* Addseriebutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addseriebutton.swift; sourceTree = "<group>"; };
 		1A5017762F1F535D00FC4D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1AC2FF542F184668005C684F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1AD5C44F2F1013CE00D1D86A /* Performed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Performed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +162,9 @@
 				1AD5C47F2F102D1600D1D86A /* HorizontalBarChartView.swift */,
 				1AD5C47D2F102CF700D1D86A /* BarChartView.swift */,
 				1AD5C47B2F102CD800D1D86A /* StatCard.swift */,
+				1A2E96142F2E7D2500E02538 /* Serierow.swift */,
+				1A2E96162F2E7D5900E02538 /* ExercisePicker.swift */,
+				1A2E96182F2E7E5E00E02538 /* Addseriebutton.swift */,
 			);
 			path = "ui:ux";
 			sourceTree = "<group>";
@@ -243,11 +252,14 @@
 				1AD5C4652F10144000D1D86A /* Exercice.swift in Sources */,
 				1AD5C46B2F10158100D1D86A /* Seance.swift in Sources */,
 				1AD5C4772F102C1300D1D86A /* SeanceDetailView.swift in Sources */,
+				1A2E96152F2E7D2500E02538 /* Serierow.swift in Sources */,
+				1A2E96172F2E7D5900E02538 /* ExercisePicker.swift in Sources */,
 				1AD5C4822F102D3700D1D86A /* LineChartView.swift in Sources */,
 				1AD5C47C2F102CD800D1D86A /* StatCard.swift in Sources */,
 				1AD5C4532F1013CE00D1D86A /* PerformedApp.swift in Sources */,
 				1AD5C4622F1013F500D1D86A /* User.swift in Sources */,
 				1AD5C4792F102C7A00D1D86A /* StatistiquesView.swift in Sources */,
+				1A2E96192F2E7E5F00E02538 /* Addseriebutton.swift in Sources */,
 				1AD5C4842F102D6400D1D86A /* ProfilView.swift in Sources */,
 				1AD5C4732F101FF800D1D86A /* AddSeanceView.swift in Sources */,
 				1AD5C4672F1014E400D1D86A /* Serie.swift in Sources */,
